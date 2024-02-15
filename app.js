@@ -7,13 +7,13 @@ window.addEventListener("todoschange", () => {
 });
 
 // try to get store from localstorage
-const storeFromLocalStorage = JSON.parse(localStorage.getItem("store"));
-if (storeFromLocalStorage ? todos.length > 0 : "") {
-    store.todos = storeFromLocalStorage.todos;
-} else {
-    localStorage.setItem("store", JSON.stringify(store));
-    render();
-}
+// const storeFromLocalStorage = JSON.parse(localStorage.getItem("store"));
+// if (storeFromLocalStorage ? todos.length > 0 : "") {
+//     store.todos = storeFromLocalStorage.todos;
+// } else {
+//     localStorage.setItem("store", JSON.stringify(store));
+//     render();
+// }
 
 // form get
 
